@@ -53,7 +53,10 @@ Process specific folders:
 H-Tc_predicter folder1 folder2 folder3
 ```
 
-## Citation :)
+## Citation 
+If you use this code in your research, please cite us，thanks :)
+
+```bibtex
 @article{CHEN2026102073,
 title = {Interpretable descriptors enable prediction of hydrogen-based superconductors at moderate pressures},
 journal = {Materials Today Physics},
