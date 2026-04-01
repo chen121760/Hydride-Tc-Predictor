@@ -38,7 +38,7 @@ pip install -r requirements.txt
 export PATH="$(pwd):$PATH" #temp add to PATH
 ```
 
-##Usage
+## Usage
 Show help:
 ```bash
 H-Tc_predicter -h
@@ -52,6 +52,7 @@ Process specific folders:
 H-Tc_predicter folder1 folder2 folder3
 ```
 
+## Please cite if useful, thanks :)
 @article{CHEN2026102073,
 title = {Interpretable descriptors enable prediction of hydrogen-based superconductors at moderate pressures},
 journal = {Materials Today Physics},
@@ -62,6 +63,4 @@ issn = {2542-5293},
 doi = {https://doi.org/10.1016/j.mtphys.2026.102073},
 url = {https://www.sciencedirect.com/science/article/pii/S2542529326000647},
 author = {Jiawei Chen and Junhao Peng and Yanwei Liang and Renhai Wang and Huafeng Dong and Wei Zhang},
-keywords = {Hydrogen-based superconductors, Symbolic regression, Electronic structure},
-abstract = {Room-temperature superconductivity remains elusive, and hydrogen-based compounds — despite remarkable transition temperatures(Tc) — typically require extreme pressures that hinder practical application. To accelerate discovery under moderate pressures, an interpretable framework based on symbolic regression is developed to predict Tc in hydrogen-based superconductors. A key descriptor is an integrated density of states (IDOS) within ± 1 eV of the Fermi level (EF), which exhibits greater robustness than conventional single-point DOS features. The resulting analytic model links electronic-structure characteristics to superconducting performance (RMSEtrain = 20.15 K, RMSEval = 34.72 K) and is suitable for rapid materials screening. Guided by this model, four hydrogen-based candidates are identified and validated via calculation: Na2GaCuH6 with Tc = 42.04 K at ambient pressure (exceeding MgB2), and NaCaH12, NaSrH12, and KSrH12 with Tc up to 162.35 K, 86.32 K, and 55.13 K at 100 GPa, 25 GPa, and 25 GPa, respectively. Beyond rapid screening, the interpretable form clarifies how hydrogen-projected electronic weight near EF and related features govern Tc in hydrides, offering a mechanism-aware route to stabilize high-Tc phases at reduced pressures.}
 }
