@@ -30,7 +30,12 @@ where:
 - numpy
 - pymatgen
 
-Install dependencies:
-
+## Use
+git clone <your-repo-url>
+cd <your-repo-name>
 ```bash
 pip install -r requirements.txt
+
+
+
+
