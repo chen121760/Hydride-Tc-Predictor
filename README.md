@@ -30,11 +30,12 @@ where:
 - numpy
 - pymatgen
 
-## Use
+## Install
 ```bash
 git clone https://github.com/chen121760/Hydride-Tc-Predictor.git
 cd Hydride-Tc-Predictor
 pip install -r requirements.txt
+chmod +x H-Tc_predicter.py
 export PATH="$(pwd):$PATH" #temp add to PATH
 ```
 
@@ -52,7 +53,7 @@ Process specific folders:
 H-Tc_predicter folder1 folder2 folder3
 ```
 
-## Please cite if useful, thanks :)
+## Citation :)
 @article{CHEN2026102073,
 title = {Interpretable descriptors enable prediction of hydrogen-based superconductors at moderate pressures},
 journal = {Materials Today Physics},
