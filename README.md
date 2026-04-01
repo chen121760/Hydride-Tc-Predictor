@@ -31,10 +31,11 @@ where:
 - pymatgen
 
 ## Use
-git clone <your-repo-url>
-cd <your-repo-name>
 ```bash
+git clone https://github.com/chen121760/Hydride-Tc-Predictor.git
+cd Hydride-Tc-Predictor
 pip install -r requirements.txt
+
 
 
 
