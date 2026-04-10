@@ -13,7 +13,7 @@ Usage:
     H-Tc_predicter --help
 
 Author: Based on Chen et al. (2025)
-Reference: arXiv:2511.11284
+Reference: 10.1016/j.mtphys.2026.102073
 """
 
 import sys
